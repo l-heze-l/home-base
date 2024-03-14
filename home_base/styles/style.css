@@ -188,7 +188,7 @@ div#more.projectslot {
 
 /*******************************************************************/
 /* Project Pop-ups */
-div.popup {
+.popup {
     display: none;
     position: fixed;
     top: 10vh;
@@ -196,7 +196,7 @@ div.popup {
     width: 100vw;
     height: 90vh; 
 }
-article.PU-Body {
+.PU-Body {
     display: block;
     position: fixed;
     top: 10vh;
@@ -208,24 +208,30 @@ article.PU-Body {
     background-color: #141414;
     color: #ffffff;
 }
-h2.PU-head {
+.PU-head {
     font-size: 2.5vw;
     text-align: center;
+    margin-bottom: 0 ;
 }
-p.PU-text {
+.PU-text {
     padding-left: 2vw;
     padding-right: 2vw;
 }
-a.PU-link {
+.PU-link {
     color: #0059ff;
 }
-a.PU-link:hover {
+.PU-link:hover {
     color: #023faf;
 }
-div#homebasePU {
+.PU-img {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+#homebasePU {
     background-color: #5f4077;
 }
-div#lumaPU {
+#lumaPU {
     background-color: #096c99;
 }
 div.PUBack {
@@ -248,7 +254,7 @@ p.PUBack {
     text-decoration: none;
 }
 div.PUBack:hover {
-    background-color: #0000003b
+    background-color: #00000018
 }
 /*******************************************************************/
 /* Contact Section */
